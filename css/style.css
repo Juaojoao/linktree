@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3e077517;
+}
+
+.card{
+    max-width: 1240px;
+    width: 270px;
+}
+
+#prof-perfil{
+    width: 170px;
+    height: 160px;
+    border: 3px solid #BB99DD;
+    border-spacing: 20px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card .conteudo p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card .links ul li{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #BB99DD;
+    border-radius: 5px;
+}
+
+.card .links ul li a{
+    font-size: 10px;
+}
+
+.card .redes-socias{
+    margin: 30px 15px;
+}
+.card .redes-socias a{
+    margin: 0 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #BB99DD;
+}
+
+ul li{
+    list-style-type: none;
+}
+
